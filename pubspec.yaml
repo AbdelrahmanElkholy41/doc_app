@@ -46,3 +46,4 @@ flutter:
   assets:
     - assets/images/
     - assets/svgs/
+    - lib/features/login/ui/widgets/
