@@ -108,6 +108,7 @@ class LoginScreen extends StatelessWidget {
   }
 }
 
+
 void validateTheLogin(BuildContext context) {
   final loginCubit = context.read<LoginCubit>();
 
