@@ -10,6 +10,9 @@ import 'package:flutter_complete_project/features/sign_up/ui/sign_up_screen.dart
 import '../../features/home/home_screen.dart';
 import '../di/dependancy_injection.dart';
 
+import '../../features/home/home_screen.dart';
+import '../di/dependancy_injection.dart';
+
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     //this arguments to be passed in any screen like this ( arguments as ClassName )
@@ -29,8 +32,10 @@ class AppRouter {
 
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
+
       case Routes.signUpScreen:
         return MaterialPageRoute(builder: (_) => const SignUpScreen());
+
 
       default:
         return MaterialPageRoute(
