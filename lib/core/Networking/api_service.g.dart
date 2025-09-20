@@ -57,7 +57,6 @@ class _ApiService implements ApiService {
     return _value;
   }
 
-
   @override
   Future<SignupResponse> signUp(SignupRequestBody signUpRequestModel) async {
     final _extra = <String, dynamic>{};
