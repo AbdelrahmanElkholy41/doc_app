@@ -8,7 +8,10 @@ class Assets {
   static const String helpersExtensions = 'lib/core/helpers/extensions.dart';
   static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
   static const String homeHomeScreen = 'lib/features/home/home_screen.dart';
+  static const String imagesApp = 'assets/images/app.png';
+  static const String imagesFac = 'assets/images/fac.png';
   static const String imagesFrame = 'assets/images/Frame.png';
+  static const String imagesLogo = 'assets/images/Logo.png';
   static const String imagesOnboardingDoctor = 'assets/images/onboarding_doctor.png';
   static const String imagesSplashScreen = 'assets/images/Splash_Screen.png';
   static const String libDocApp = 'lib/doc_app.dart';
@@ -18,6 +21,14 @@ class Assets {
   static const String logicSignUpCubit = 'lib/features/sign_up/logic/sign_up_cubit.dart';
   static const String logicSignUpState = 'lib/features/sign_up/logic/sign_up_state.dart';
   static const String modalSignUpRequestBody = 'lib/features/sign_up/data/modal/sign_up_request_body.dart';
+  static const String modalSignUpResponse = 'lib/features/sign_up/data/modal/sign_up_response.dart';
+  static const String modalsLoginRequestBody = 'lib/features/login/data/modals/login_request_body.dart';
+  static const String modalsLoginResponse = 'lib/features/login/data/modals/login_response.dart';
+  static const String networkingApiConstants = 'lib/core/networking/api_constants.dart';
+  static const String networkingApiErrorHandler = 'lib/core/networking/api_error_handler.dart';
+  static const String networkingApiErrorModel = 'lib/core/networking/api_error_model.dart';
+  static const String networkingApiResult = 'lib/core/networking/api_result.dart';
+  static const String networkingApiService = 'lib/core/networking/api_service.dart';
   static const String networkingDioFactory = 'lib/core/networking/dio_factory.dart';
   static const String onboardingOnboardingScreen = 'lib/features/onboarding/onboarding_screen.dart';
   static const String reposLoginRepos = 'lib/features/login/data/repos/login_repos.dart';
@@ -31,6 +42,8 @@ class Assets {
   static const String themingStyles = 'lib/core/theming/styles.dart';
   static const String uiLoginScreen = 'lib/features/login/ui/login_screen.dart';
   static const String uiSignUpScreen = 'lib/features/sign_up/ui/sign_up_screen.dart';
+  static const String widgetSignUpForm = 'lib/features/sign_up/ui/widget/sign_up_form.dart';
+  static const String widgetSignUpOther = 'lib/features/sign_up/ui/widget/sign_up_other.dart';
   static const String widgetsCoutomTextField = 'lib/core/widgets/coutom_text_field.dart';
   static const String widgetsCustomMainButton = 'lib/core/widgets/custom_main_button.dart';
   static const String widgetsDocLogoAndName = 'lib/features/onboarding/widgets/doc_logo_and_name.dart';
