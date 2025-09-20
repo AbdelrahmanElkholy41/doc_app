@@ -6,7 +6,6 @@ import 'package:flutter_complete_project/core/widgets/coutom_text_field.dart';
 import 'package:flutter_complete_project/features/sign_up/ui/widget/sign_up_form.dart';
 import 'package:flutter_complete_project/features/sign_up/ui/widget/sign_up_other.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../../../core/routing/routes.dart';
 import '../../../core/theming/colors.dart';
 import '../../../core/widgets/custom_main_button.dart';
