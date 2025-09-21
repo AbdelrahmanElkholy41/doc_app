@@ -1,5 +1,6 @@
 // features/sign_up/ui/sign_up_screen.dart
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_project/core/helpers/extensions.dart';
 import 'package:flutter_complete_project/core/helpers/spacing.dart';
 import 'package:flutter_complete_project/core/theming/styles.dart';
 import 'package:flutter_complete_project/core/widgets/coutom_text_field.dart';
@@ -40,7 +41,9 @@ class SignUpScreen extends StatelessWidget {
                 AppTextButton(
                   buttonText: 'Create Account',
                   textStyle: TextStyles.font16WhiteMedium,
-                  onPressed: () {},
+                  onPressed: () {
+                  context.pushNamed(Routes.homeScreen);
+                  },
                 ),
                 verticalSpace(46.h),
                 Row(

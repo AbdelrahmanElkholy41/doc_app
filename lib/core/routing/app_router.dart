@@ -6,11 +6,9 @@ import 'package:flutter_complete_project/features/login/logic/login_cubit.dart';
 import 'package:flutter_complete_project/features/login/ui/login_screen.dart';
 import 'package:flutter_complete_project/features/onboarding/onboarding_screen.dart';
 import 'package:flutter_complete_project/features/sign_up/ui/sign_up_screen.dart';
-
-import '../../features/home/home_screen.dart';
+import '../../features/home/ui/home_screen.dart';
+import '../../features/login/ui/widgets/forgot_password.dart';
 import '../di/dependancy_injection.dart';
-
-import '../../features/home/home_screen.dart';
 import '../di/dependancy_injection.dart';
 
 class AppRouter {
@@ -35,7 +33,8 @@ class AppRouter {
 
       case Routes.signUpScreen:
         return MaterialPageRoute(builder: (_) => const SignUpScreen());
-
+      case Routes.forgotPasswordScreen:
+        return MaterialPageRoute(builder: (_) => const ForgotPassword());
 
       default:
         return MaterialPageRoute(
