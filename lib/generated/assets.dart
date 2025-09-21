@@ -7,11 +7,16 @@ class Assets {
   static const String helpersAppRegex = 'lib/core/helpers/app_regex.dart';
   static const String helpersExtensions = 'lib/core/helpers/extensions.dart';
   static const String helpersSpacing = 'lib/core/helpers/spacing.dart';
-  static const String homeHomeScreen = 'lib/features/home/home_screen.dart';
   static const String imagesApp = 'assets/images/app.png';
+  static const String imagesBaby = 'assets/images/baby.png';
+  static const String imagesBrain = 'assets/images/Brain.png';
+  static const String imagesDoc1 = 'assets/images/doc1.png';
+  static const String imagesDoctor = 'assets/images/doctor.png';
   static const String imagesFac = 'assets/images/fac.png';
   static const String imagesFrame = 'assets/images/Frame.png';
+  static const String imagesKidneys = 'assets/images/Kidneys.png';
   static const String imagesLogo = 'assets/images/Logo.png';
+  static const String imagesManDoc = 'assets/images/man_doc.png';
   static const String imagesOnboardingDoctor = 'assets/images/onboarding_doctor.png';
   static const String imagesSplashScreen = 'assets/images/Splash_Screen.png';
   static const String libDocApp = 'lib/doc_app.dart';
@@ -40,8 +45,11 @@ class Assets {
   static const String themingColors = 'lib/core/theming/colors.dart';
   static const String themingFontWidghtHelper = 'lib/core/theming/font_widght_helper.dart';
   static const String themingStyles = 'lib/core/theming/styles.dart';
+  static const String uiHomeScreen = 'lib/features/home/ui/home_screen.dart';
   static const String uiLoginScreen = 'lib/features/login/ui/login_screen.dart';
   static const String uiSignUpScreen = 'lib/features/sign_up/ui/sign_up_screen.dart';
+  static const String widgetAvatarImage = 'lib/features/home/ui/widget/avatar_image.dart';
+  static const String widgetRecoDoc = 'lib/features/home/ui/widget/reco_doc.dart';
   static const String widgetSignUpForm = 'lib/features/sign_up/ui/widget/sign_up_form.dart';
   static const String widgetSignUpOther = 'lib/features/sign_up/ui/widget/sign_up_other.dart';
   static const String widgetsCoutomTextField = 'lib/core/widgets/coutom_text_field.dart';
@@ -49,6 +57,7 @@ class Assets {
   static const String widgetsDocLogoAndName = 'lib/features/onboarding/widgets/doc_logo_and_name.dart';
   static const String widgetsDoctorImageAndText = 'lib/features/onboarding/widgets/doctor_image_and_text.dart';
   static const String widgetsEmailAndPassword = 'lib/features/login/ui/widgets/email_and_password.dart';
+  static const String widgetsForgotPassword = 'lib/features/login/ui/widgets/forgot_password.dart';
   static const String widgetsGetStartedButton = 'lib/features/onboarding/widgets/get_started_button.dart';
   static const String widgetsLoginBlocListener = 'lib/features/login/ui/widgets/login_bloc_listener.dart';
   static const String widgetsPasswordValidations = 'lib/features/login/ui/widgets/password_validations.dart';
