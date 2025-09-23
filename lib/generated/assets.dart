@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String boldCalendar2 = 'assets/svgs/vuesax/bold/calendar-2.svg';
   static const String diDependancyInjection = 'lib/core/di/dependancy_injection.dart';
   static const String generatedAssets = 'lib/generated/assets.dart';
   static const String helpersAppRegex = 'lib/core/helpers/app_regex.dart';
@@ -21,6 +22,7 @@ class Assets {
   static const String imagesSplashScreen = 'assets/images/Splash_Screen.png';
   static const String libDocApp = 'lib/doc_app.dart';
   static const String libMain = 'lib/main.dart';
+  static const String linearCalendar2 = 'assets/svgs/vuesax/linear/vuesax/linear/calendar-2.svg';
   static const String logicLoginCubit = 'lib/features/login/logic/login_cubit.dart';
   static const String logicLoginState = 'lib/features/login/logic/login_state.dart';
   static const String logicSignUpCubit = 'lib/features/sign_up/logic/sign_up_cubit.dart';
@@ -42,13 +44,17 @@ class Assets {
   static const String routingRoutes = 'lib/core/routing/routes.dart';
   static const String svgsDocdocLogo = 'assets/svgs/docdoc_logo.svg';
   static const String svgsDocdocLogoLowOpacity = 'assets/svgs/docdoc_logo_low_opacity.svg';
+  static const String svgsMessageText = 'assets/svgs/message-text.svg';
   static const String themingColors = 'lib/core/theming/colors.dart';
   static const String themingFontWidghtHelper = 'lib/core/theming/font_widght_helper.dart';
   static const String themingStyles = 'lib/core/theming/styles.dart';
   static const String uiHomeScreen = 'lib/features/home/ui/home_screen.dart';
   static const String uiLoginScreen = 'lib/features/login/ui/login_screen.dart';
   static const String uiSignUpScreen = 'lib/features/sign_up/ui/sign_up_screen.dart';
+  static const String vuesaxLinearCalendar2 = 'assets/svgs/Omar - Appointment App (1)/vuesax/linear/vuesax/linear/calendar-2.svg';
   static const String widgetAvatarImage = 'lib/features/home/ui/widget/avatar_image.dart';
+  static const String widgetDocSpeciality = 'lib/features/home/ui/widget/doc_speciality.dart';
+  static const String widgetImageAndFindNearby = 'lib/features/home/ui/widget/image_and_find_nearby.dart';
   static const String widgetRecoDoc = 'lib/features/home/ui/widget/reco_doc.dart';
   static const String widgetSignUpForm = 'lib/features/sign_up/ui/widget/sign_up_form.dart';
   static const String widgetSignUpOther = 'lib/features/sign_up/ui/widget/sign_up_other.dart';
