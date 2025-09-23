@@ -29,6 +29,11 @@ dependencies:
   shared_preferences: ^2.2.3
   flutter_secure_storage: ^9.2.2
   shimmer: ^3.0.0
+  material_design_icons_flutter: ^7.0.7296
+  akar_icons_flutter: ^1.1.21
+  iconify_flutter: ^0.0.5
+
+
 
 dev_dependencies:
   flutter_test:

@@ -27,7 +27,6 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // العنوان الرئيسي
                 Text(
                   'Welcome Back',
                   style: TextStyles.font24BlueBold,
@@ -38,15 +37,18 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyles.font14GrayRegular,
                 ),
                 verticalSpace(36.h),
-
-                // فورم الإيميل والباسورد
                 Column(
                   children: [
                     const EmailAndPassword(),
                     Align(
                       alignment: Alignment.centerRight,
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(
+                            context,
+                            Routes.forgotPasswordScreen,
+                          );
+                        },
                         child: Text(
                           'Forgot password?',
                           style: TextStyles.font13BlueRegular,
@@ -54,8 +56,6 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                     verticalSpace(40.h),
-
-                    // زرار تسجيل الدخول
                     AppTextButton(
                       buttonText: 'Login',
                       textStyle: TextStyles.font16WhiteMedium,
@@ -64,12 +64,8 @@ class LoginScreen extends StatelessWidget {
                       },
                     ),
                     verticalSpace(16.h),
-
-                    // الشروط والأحكام
                     const TermsAndConditions(),
                     verticalSpace(60.h),
-
-                    // نص إنشاء حساب
                     RichText(
                       text: TextSpan(
                         children: [
@@ -94,8 +90,6 @@ class LoginScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-
-                    // Bloc Listener لمعالجة حالات تسجيل الدخول
                     const LoginBlocListener(),
                   ],
                 ),
