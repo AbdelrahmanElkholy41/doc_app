@@ -1,5 +1,6 @@
 import 'package:akar_icons_flutter/akar_icons_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_project/core/helpers/extensions.dart';
 import 'package:flutter_complete_project/core/theming/colors.dart';
 import 'package:flutter_complete_project/features/home/ui/widget/doc_speciality.dart';
 import 'package:flutter_complete_project/features/home/ui/widget/image_and_find_nearby.dart';
@@ -10,6 +11,7 @@ import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/simple_icons.dart';
 
 import '../../../core/helpers/spacing.dart';
+import '../../../core/routing/routes.dart';
 import '../../../core/theming/styles.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -62,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                     icon: Icon(
                       AkarIcons.home,
-                      size: 30.sp,
+                      size: 25 .sp,
                       color: currentIndex == 0
                           ? ColorsManager.mainBlue
                           : Colors.black,
@@ -77,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                       icon: Icon(
                         AkarIcons.chat_dots,
-                        size: 30.sp,
+                        size: 25.sp,
                         color: currentIndex == 1
                             ? ColorsManager.mainBlue
                             : Colors.black,
@@ -94,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                     icon: Icon(
                       AkarIcons.calendar,
-                      size: 30.sp,
+                      size: 25.sp,
                       color: currentIndex == 2
                           ? ColorsManager.mainBlue
                           : Colors.black,
@@ -109,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                       icon: Icon(
                         Icons.person,
-                        size: 30.sp,
+                        size: 25.sp,
                         color: currentIndex == 3
                             ? ColorsManager.mainBlue
                             : Colors.black,
@@ -136,10 +138,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyles.font24BlackBold,
                     ),
                     IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        context.pushNamed(Routes.notificationScreen);
+                      },
                       icon: Icon(
                         Icons.notifications_none_outlined,
-                        size: 30.sp,
+                        size: 25.sp,
                       ),
                     ),
                   ],
@@ -159,7 +163,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyles.font18DarkBlueSemiBold,
                     ),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        context.pushNamed(Routes.doctorCategoryScreen);
+                      },
                       child: Text(
                         'See All',
                         style: TextStyles.font13BlueRegular,
